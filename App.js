@@ -13,7 +13,7 @@ export default function App() {
   const [userNumber, setuserNumber] = useState();
   const [gameIsOver, setgameIsOver] = useState(true);
   const [guessRounds, setGuessRounds] = useState(0);
-
+  // checking commits
   // to use custom fonts
   const [fontsLoaded] = useFonts({
     "open-sans": require("./assets/fonts/OpenSans-Regular.ttf"),
